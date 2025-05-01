@@ -4,7 +4,7 @@ set -e  # Exit on errors
 
 REPO_DIR="/opt/website-sync/repo"
 BRANCH="main"
-S3_BUCKET="s3://your-bucket-name"
+S3_BUCKET="s3://carlosengels.com"
 AWS_PROFILE="default"
 
 cd "$REPO_DIR"
