@@ -20,4 +20,4 @@ npm install
 npm run build
 
 # Sync the output directory to S3 (adjust if output isn't 'dist')
-aws s3 sync ./dist "$S3_BUCKET" --delete --profile "$AWS_PROFILE"
+aws s3 sync ./build "$S3_BUCKET" --delete --profile "$AWS_PROFILE"
